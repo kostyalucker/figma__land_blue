@@ -15,7 +15,7 @@ function browsersync() {
 }
 
 function scss() {
-  return src('src/scss/**/**.scss')
+  return src('src/scss/styles.scss')
     .pipe(sass())
     .pipe(autoprefixer({
       browsers: ['last 2 versions']

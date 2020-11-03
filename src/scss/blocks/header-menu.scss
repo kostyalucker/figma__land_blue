@@ -1,0 +1,62 @@
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 49px;
+}
+
+.header-menu__logo {
+  display: block;
+  align-self: center;
+  padding-left: 30px;
+}
+
+.header-menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-menu__item {
+  margin-right: 41px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.header-menu__link {
+  @include font(15, 27, 400);
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $main-text-color;
+}
+
+
+.header-menu__subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu__email {
+  padding: 19px 49px;
+  margin-right: 12px;
+
+  background: #EFEFEF;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  opacity: 0.12;
+
+  @include font(14, 16,400);
+  color: #18171D;
+}
+
+.header-menu__button {
+  padding: 19px 38px;
+  background: #FFFFFF;
+  border-radius: 39px;
+  border: none;
+  cursor: pointer;
+
+  @include font(16, 16, 500);
+  color: #2091F9;
+}
