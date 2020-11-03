@@ -1,5 +1,14 @@
 .wrap {
   max-width: 1153px;
   margin: 0 auto;
+
+  &--pricing {
+    margin: 0 auto;
+    max-width: 866px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+  }
 }
 

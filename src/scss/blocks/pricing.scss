@@ -1,0 +1,74 @@
+.pricing {
+  background: #252B42;
+  padding-top: 110px;
+}
+
+.pricing__content {
+  max-width: 351px;
+}
+
+.pricing__plan {
+  max-width: 231px;
+  margin-bottom: 110px;
+}
+
+.pricing__title {
+  margin: 0;
+  margin-bottom: 26px;
+
+  @include font(55, 65.5, 900);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}
+
+.pricing__subtitle {
+  margin: 0;
+  margin-left: 10px;
+
+  @include font(18, 27, 400);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}
+
+.pricing__trial {
+  margin: 0;
+  margin-bottom: 17px;
+
+  @include font(16, 20, 700);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}
+
+.pricing__cost {
+  margin: 0;
+  margin-bottom: 17px;
+
+  @include font(16, 20, 700);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+
+  span {
+    @include font(55, 65.5, 900);
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+  }
+}
+
+.pricing__text {
+  margin: 0;
+  margin-bottom: 37px;
+
+  @include font(16, 20, 700);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}
+
+.pricing__button {
+  padding: 18px 38px;
+  background: #2091F9;
+  border-radius: 35px;
+
+  @include font(16, 16, 500);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}

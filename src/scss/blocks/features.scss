@@ -64,12 +64,12 @@
 .features__item-title {
   margin: 0;
   margin-bottom: 20px;
+  padding-left: 53px;
+  position: relative;
 
   @include font(22, 33, 700);
   color: #252B42;
   letter-spacing: 0.1px;
-  padding-left: 53px;
-  position: relative;
   &:before {
     content: "";
     position: absolute;
