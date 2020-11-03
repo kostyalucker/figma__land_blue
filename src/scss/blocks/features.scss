@@ -39,15 +39,16 @@
 .features__img-container {
   background: rgba(0, 0, 0, 0.0001);
   box-shadow: 0px 9.85769px 19.7154px rgba(0, 0, 0, 0.16), 0px 9.85769px 131.436px rgba(0, 0, 0, 0.23);
+  margin-right: 95px;
 }
 
 .features__block {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 1300px;
   margin-bottom: 133px;
 }
 
