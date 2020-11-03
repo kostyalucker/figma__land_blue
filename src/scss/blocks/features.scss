@@ -55,6 +55,10 @@
 .features__item {
   margin-bottom: 90px;
   max-width: 255px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .features__item-title {
