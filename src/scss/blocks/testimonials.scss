@@ -7,6 +7,7 @@
 .testimonials__title {
   margin: 0;
   margin-bottom: 38px;
+  margin-top: 111px;
 
   @include font(46, 57, 400);
   color: #252B42;
@@ -106,6 +107,7 @@
   padding: 16px 47px;
   background: #2091F9;
   border-radius: 35px;
+  margin-top: 28px;
   margin-bottom: 100px;
 
   @include font(22, 33, 700);
