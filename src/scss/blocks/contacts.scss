@@ -1,0 +1,137 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 210px;
+}
+
+.contact__title {
+  margin: 0;
+  margin-bottom: 27px;
+
+  @include font(46, 57, 400);
+  color: #252B42;
+  letter-spacing: 0.2px;
+}
+
+.contact__subtitle {
+  margin: 0;
+  margin-bottom: 75px;
+  max-width: 300px;
+
+  @include font(16, 20, 700);
+  color: #374754;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.contact__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 75px;
+}
+
+.contact__socials-item {
+  margin-right: 33px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.contact__communication-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.contact__communication-item {
+  position: relative;
+  max-width: 210px;
+  margin: 0;
+  margin-right: 35px;
+  padding-top: 45px;
+
+  @include font(12, 18, 700);
+  color: #374754;
+  letter-spacing: 0.1px;
+  text-align: center;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &:before {
+    position: absolute;
+    width: 25px;
+    height: 32px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &:nth-of-type(1):before {
+    content: url(../img/communication-1.svg);
+  }
+  &:nth-of-type(2):before {
+    content: url(../img/communication-2.svg);
+  }
+  &:nth-of-type(3):before {
+    content: url(../img/communication-3.svg);
+  }
+}
+
+.contact__form {
+  padding: 0 50px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  margin-top: 60px;
+  width: 60%;
+  margin-bottom: 99px;
+}
+
+.contact__form-title {
+  margin: 0;
+  margin-top: 52px;
+  margin-bottom: 45px;
+
+  @include font(22, 33, 700);
+  color: #252B42;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.contact__form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact__form-name,
+.contact__form-email,
+.contact__form-subject {
+  padding: 19px 20px;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  margin-bottom: 45px;
+
+  @include font(15, 16, 400);
+  color: #252B42;
+  letter-spacing: 0.1px;
+}
+
+.contact__form-submit {
+  align-self: start;
+  padding: 18px 38px;
+  background: #2091F9;
+  border: none;
+  border-radius: 35px;
+  margin-bottom: 52px;
+}
