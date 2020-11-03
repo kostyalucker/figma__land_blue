@@ -125,8 +125,12 @@
   @include font(15, 16, 400);
   color: #252B42;
   letter-spacing: 0.1px;
-}
 
+}
+.contact__form-subject {
+  resize: none;
+  padding: 23px 20px;
+}
 .contact__form-submit {
   align-self: start;
   padding: 18px 38px;
