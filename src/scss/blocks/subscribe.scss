@@ -4,11 +4,11 @@
   flex-wrap: wrap;
   align-items: center;
   margin-top: 207px;
-  margin-bottom: 100px;
 }
 
 .subscribe__img {
   margin-right: 113px;
+  margin-bottom: 109px;
 }
 
 .subscribe__content {
@@ -17,7 +17,7 @@
   justify-content: start;
 }
 
-.subscribe__info-wrap {
+.subscribe__head {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -40,6 +40,10 @@
   @include font(46, 57, 400);
   color: #252B42;
   letter-spacing: 0.2px;
+}
+
+.subscribe__desc {
+  margin-left: 10px;
 }
 
 .subscribe__text {
