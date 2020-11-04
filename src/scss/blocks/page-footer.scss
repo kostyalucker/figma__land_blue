@@ -1,0 +1,98 @@
+.page-footer {
+  background: #252B42;
+  padding: 107px 0px;
+}
+
+.footer-pages__title,
+.footer-persons__title,
+.footer-personages__title {
+  margin: 0;
+  margin-bottom: 25px;
+
+  @include font(22, 33, 700);
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+}
+
+.footer-pages__link,
+.footer-persons__link,
+.footer-personages__link {
+  margin: 0;
+  margin-bottom: 16px;
+
+  @include font(15, 27, 400);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}
+
+.page-footer__socials {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 29px;
+}
+
+.page-footer__socials-items {
+  margin-right: 29px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.page-footer__socials-link img {
+  filter: brightness(0) invert(1);
+}
+
+.page-footer__subscribes {
+  margin-left: 10px;
+  width: 373px;
+}
+
+.page-footer__subscribes-title {
+  margin: 0;
+  margin-bottom: 5px;
+
+  @include font(22, 33, 700);
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+}
+
+.page-footer__subscribes-text {
+  margin: 0;
+  margin-bottom: 29px;
+
+  @include font(18, 27, 400);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}
+
+.page-footer__subscribes-form {
+  display: flex;
+
+  justify-content: stretch;
+  flex-direction: column;
+}
+
+.page-footer__subscribes-email {
+  padding: 19px 35px;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  margin-bottom: 12px;
+
+  @include font(14, 16, 400);
+  color: #18171D;
+  letter-spacing: 0.1px;
+}
+
+.page-footer__subscribes-button {
+  padding: 17px 35px;
+  background: #2091F9;
+  border: none;
+  border-radius: 35px;
+
+  @include font(16, 16, 500);
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+}

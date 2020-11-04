@@ -2,13 +2,18 @@
   max-width: 1153px;
   margin: 0 auto;
 
-  &--pricing {
+  &--pricing,
+  &--page-footer{
     margin: 0 auto;
     max-width: 866px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: start;
+  }
+
+  &--page-footer {
+    max-width: 1036px;
   }
 }
 
