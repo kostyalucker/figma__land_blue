@@ -4,11 +4,11 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+  padding-top: 100px;
 }
 
 .plans__subtitle {
   margin: 0;
-  margin-top: 100px;
   margin-bottom: 17px;
 
   @include font(22, 33, 700);
@@ -56,7 +56,7 @@
 }
 
 .plans_buttons-try {
-  padding: 18px 45px;
+  padding: 16px 45px;
   background-color: transparent;
   border: 1px solid #FFFFFF;
   border-radius: 35px;

@@ -1,6 +1,6 @@
 .page-footer {
   background: #252B42;
-  padding: 107px 0px;
+  padding: 111px 0px;
 }
 
 .footer-pages__title,
@@ -14,11 +14,14 @@
   letter-spacing: 0.1px;
 }
 
+.footer-pages__item {
+  margin-bottom: 16px;
+}
+
 .footer-pages__link,
 .footer-persons__link,
 .footer-personages__link {
   margin: 0;
-  margin-bottom: 16px;
 
   @include font(15, 27, 400);
   color: #FFFFFF;

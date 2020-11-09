@@ -29,7 +29,7 @@
   width: 300px;
   text-align: center;
   margin: 0;
-  margin-bottom: 150px;
+  margin-bottom: 137px;
 
   @include font(16, 20, 700);
   color: #374754;
@@ -38,7 +38,7 @@
 
 .features__img-container {
   background: rgba(0, 0, 0, 0.0001);
-  box-shadow: 0px 9.85769px 19.7154px rgba(0, 0, 0, 0.16), 0px 9.85769px 131.436px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 9.85769px 19.7154px rgba(0, 0, 0, 0.16), 0 9.85769px 131.436px rgba(0, 0, 0, 0.23);
   margin-right: 95px;
 }
 
@@ -48,8 +48,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 133px;
+  margin-bottom: 149px;
 }
 
 .features__item {
