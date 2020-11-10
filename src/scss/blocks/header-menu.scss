@@ -9,12 +9,11 @@
   display: block;
   align-self: center;
   padding-left: 30px;
-  min-width: 206px;
+  min-width: 220px;
 }
 
 .header-menu__list {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -32,6 +31,9 @@
   color: $light-text-color;
 }
 
+.page-header__login-button {
+  display: none;
+}
 
 .header-menu__subscribe {
   display: flex;
@@ -53,7 +55,7 @@
   color: #18171D;
 }
 
-.header-menu__button {
+.header-menu__subscribe-button {
   padding: 19px 38px;
   background: $light-background-color;
   border-radius: 39px;
@@ -63,4 +65,25 @@
   @include font(16, 16, 500);
   letter-spacing: 0.2px;
   color: $primary-text-color;
+}
+
+
+@media screen and (max-width: 1080px){
+  .header-menu__form {
+    display: none;
+  }
+
+  .page-header__login-button {
+    display: block;
+  }
+
+  .header-menu__logo {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 857px){
+  .header-menu__nav {
+    display: none;
+  }
 }

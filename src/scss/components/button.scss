@@ -1,0 +1,11 @@
+.button {
+  padding: 19px 38px;
+  background: $light-background-color;
+  border-radius: 39px;
+  border: none;
+  cursor: pointer;
+
+  @include font(16, 16, 500);
+  letter-spacing: 0.2px;
+  color: $primary-text-color;
+}

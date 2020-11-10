@@ -4,7 +4,6 @@
 
   &--pricing,
   &--page-footer{
-    margin: 0 auto;
     max-width: 866px;
     display: flex;
     justify-content: space-between;
@@ -17,3 +16,14 @@
   }
 }
 
+@media screen and (max-width: 1080px){
+  .wrap {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: $mobile-width){
+  .wrap {
+    padding: 0 20px;
+  }
+}
