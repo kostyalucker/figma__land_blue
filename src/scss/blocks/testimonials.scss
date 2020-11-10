@@ -10,7 +10,7 @@
   margin-bottom: 38px;
 
   @include font(46, 57, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -35,7 +35,7 @@
   align-items: center;
   flex-direction: column;
   max-width: 335px;
-  background: #FFFFFF;
+  background: $light-background-color;
   box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
   border: 1px solid #DEDEDE;
   border-radius: 10px;
@@ -52,7 +52,7 @@
   margin-bottom: 39px;
 
   @include font(18, 27, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -90,7 +90,7 @@
   margin-bottom: 8px;
 
   @include font(15, 27, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -98,17 +98,17 @@
   margin: 0;
 
   @include font(12, 18, 700);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
 .testimonials__link {
   padding: 16px 47px;
-  background: #2091F9;
+  background: $primary-background-color;
   border-radius: 35px;
   margin-bottom: 100px;
 
   @include font(22, 33, 700);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.1px;
 }

@@ -29,7 +29,7 @@
   @include font(15, 27, 400);
   text-align: center;
   letter-spacing: 0.2px;
-  color: $main-text-color;
+  color: $light-text-color;
 }
 
 
@@ -49,16 +49,18 @@
   opacity: 0.12;
 
   @include font(14, 16,400);
+  letter-spacing: 0.1px;
   color: #18171D;
 }
 
 .header-menu__button {
   padding: 19px 38px;
-  background: #FFFFFF;
+  background: $light-background-color;
   border-radius: 39px;
   border: none;
   cursor: pointer;
 
   @include font(16, 16, 500);
-  color: #2091F9;
+  letter-spacing: 0.2px;
+  color: $primary-text-color;
 }

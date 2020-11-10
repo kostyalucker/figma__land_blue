@@ -24,7 +24,7 @@
   margin: 0;
 
   @include font(15, 27, 400);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -57,7 +57,7 @@
   margin-bottom: 5px;
 
   @include font(22, 33, 700);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.1px;
 }
 
@@ -66,7 +66,7 @@
   margin-bottom: 29px;
 
   @include font(18, 27, 400);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -96,6 +96,6 @@
   border-radius: 35px;
 
   @include font(16, 16, 500);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
 }

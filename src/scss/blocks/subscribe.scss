@@ -29,7 +29,7 @@
   margin-bottom: 17px;
 
   @include font(22, 33, 700);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.1px;
 }
 
@@ -38,7 +38,7 @@
   margin-bottom: 35px;
 
   @include font(46, 57, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -50,7 +50,7 @@
   margin: 0;
 
   @include font(22, 33, 700);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.1px;
 }
 
@@ -59,7 +59,7 @@
   margin-bottom: 34px;
 
   @include font(18, 27, 400);
-  color: #374754;
+  color: $second-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -81,12 +81,12 @@
 
 .subscribe__button {
   padding: 19px 38px;
-  background: #2091F9;
+  background: $primary-background-color;
   border-radius: 35px;
   cursor: pointer;
   border: none;
 
   @include font(16, 16, 500);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
 }

@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+  background: $background-gradient;
   padding-top: 100px;
 }
 
@@ -12,7 +12,7 @@
   margin-bottom: 17px;
 
   @include font(22, 33, 700);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.1px;
 }
 
@@ -21,7 +21,7 @@
   margin-bottom: 27px;
 
   @include font(46, 57, 400);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
   text-align: center;
 }
@@ -32,7 +32,7 @@
   width: 300px;
 
   @include font(16, 20, 700);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
   text-align: center;
 }
@@ -46,22 +46,22 @@
 
 .plans_buttons-buy {
   padding: 18px 31px;
-  background-color: #ffffff;
+  background-color: $light-background-color;
   border-radius: 35px;
   margin-right: 16px;
 
   @include font(16, 16, 500);
-  color: #2091F9;
+  color: $primary-text-color;
   letter-spacing: 0.2px;
 }
 
 .plans_buttons-try {
   padding: 16px 45px;
   background-color: transparent;
-  border: 1px solid #FFFFFF;
+  border: 1px solid $light-background-color;
   border-radius: 35px;
 
   @include font(16, 16, 500);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.2px;
 }

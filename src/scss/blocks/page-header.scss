@@ -17,7 +17,7 @@
   margin-bottom: 17px;
 
   @include font(22, 33, 700);
-  color: $main-text-color;
+  color: $light-text-color;
   text-align: center;
 }
 
@@ -26,7 +26,7 @@
   margin-bottom: 27px;
 
   @include font(55, 65, 900);
-  color: $main-text-color;
+  color: $light-text-color;
   text-align: center;
 }
 
@@ -37,14 +37,14 @@
   margin-bottom: 90px;
 
   @include font(16, 20, 700);
-  color: $main-text-color;
+  color: $light-text-color;
   text-align: center;
 }
 
 .page-header__button {
   padding: 16px 58px;
   margin-bottom: 115px;
-  background: #FFFFFF;
+  background: $light-background-color;
   border-radius: 39px;
   border: none;
 

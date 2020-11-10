@@ -11,7 +11,7 @@
   margin-bottom: 27px;
 
   @include font(46, 57, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -21,7 +21,7 @@
   max-width: 300px;
 
   @include font(16, 20, 700);
-  color: #374754;
+  color: $second-text-color;
   letter-spacing: 0.2px;
   text-align: center;
 }
@@ -49,6 +49,6 @@
   margin-bottom: 80px;
 
   @include font(22, 33, 700);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.1px;
 }

@@ -1,8 +1,18 @@
+//screen width
 $mobile-width: 418px;
 $desktop-width: 1440px;
 
+//fonts
 $main-text-font: "Roboto";
 
-$main-text-color: #FFFFFF;
-$side-text-color: #252B42;
-$buy-text-color: #2091F9;
+//background
+$primary-background-color: #2091F9;
+$dark-background-color: #252B42;
+$light-background-color: #FFFFFF;
+$background-gradient: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+
+//text
+$primary-text-color: #2091F9;
+$light-text-color: #FFFFFF;
+$dark-text-color: #252B42;
+$second-text-color: #374754;

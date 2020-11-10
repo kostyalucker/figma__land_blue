@@ -11,7 +11,7 @@
   margin-bottom: 27px;
 
   @include font(46, 57, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.2px;
 }
 
@@ -21,7 +21,7 @@
   max-width: 300px;
 
   @include font(16, 20, 700);
-  color: #374754;
+  color: $second-text-color;
   letter-spacing: 0.2px;
   text-align: center;
 }
@@ -61,7 +61,7 @@
   padding-top: 45px;
 
   @include font(12, 18, 700);
-  color: #374754;
+  color: $second-text-color;
   letter-spacing: 0.1px;
   text-align: center;
 
@@ -92,7 +92,7 @@
 .contact__form {
   padding: 0 50px;
   padding-top: 52px;
-  background: #FFFFFF;
+  background: $light-background-color;
   border: 1px solid #DDDDDD;
   box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
   border-radius: 20px;
@@ -106,7 +106,7 @@
   margin-bottom: 45px;
 
   @include font(22, 33, 700);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.1px;
   text-align: center;
 }
@@ -128,7 +128,7 @@
   margin-bottom: 45px;
 
   @include font(15, 16, 400);
-  color: #252B42;
+  color: $dark-text-color;
   letter-spacing: 0.1px;
 }
 .contact__form-subject {
@@ -138,12 +138,12 @@
 .contact__form-submit {
   align-self: start;
   padding: 18px 54px;
-  background: #2091F9;
+  background: $primary-background-color;
   border: none;
   border-radius: 35px;
   margin-bottom: 52px;
 
   @include font(16, 16, 500);
-  color: #FFFFFF;
+  color: $light-text-color;
   letter-spacing: 0.1px;
 }
