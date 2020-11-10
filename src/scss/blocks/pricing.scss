@@ -43,14 +43,15 @@
   margin: 0;
   margin-bottom: 17px;
 
-  @include font(16, 20, 700);
+  @include font(55, 65.5, 900);
   color: $light-text-color;
   letter-spacing: 0.2px;
 
   span {
-    @include font(55, 65.5, 900);
+    @include font(16, 20, 700);
     color: $light-text-color;
     letter-spacing: 0.2px;
+    vertical-align: middle;
   }
 }
 
