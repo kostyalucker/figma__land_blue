@@ -37,7 +37,7 @@
         </ul>
       </nav>
       <form class="header-menu__subscribe"  action="" method="GET">
-        <input type="email" class="header-menu__email" placeholder="Your Email" required>
+        <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email" required>
         <button class="header-menu__button">Subscribe</button>
       </form>
     </div>
@@ -97,7 +97,7 @@
         <p class="subscribe__text">Subscribe to our Newsletter</p>
         <p class="subscribe__subtext">Available exclusivery on Figmaland</p>
         <form class="subscribe__form" method="GET">
-          <input type="email" class="subscribe__email" placeholder="Your Email" required>
+          <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email" required>
           <button class="subscribe__button">Subscribe</button>
         </form>
       </div>
@@ -297,9 +297,9 @@
     <div class="contact__form">
       <h3 class="contact__form-title">Contact Us</h3>
       <form class="contact__form-container" action="" method="POST">
-        <input type="text" class="contact__form-name" name="name" placeholder="Your Name">
-        <input type="email" class="contact__form-email" name="email" placeholder="Your Email">
-        <textarea id="subject" class="contact__form-subject" placeholder="Your Message" style="height:193px"></textarea>
+        <input type="text" class="contact__form-name" name="name" aria-label="Enter your name" placeholder="Your Name">
+        <input type="email" class="contact__form-email" name="email" aria-label="Enter your email" placeholder="Your Email">
+        <textarea id="subject" class="contact__form-subject" aria-label="Enter your message" placeholder="Your Message" style="height:193px"></textarea>
         <input class="contact__form-submit" type="submit" value="Send">
       </form>
     </div>
@@ -307,60 +307,67 @@
 </main>
 <footer class="page-footer">
   <div class="wrap--page-footer">
-    <ul class="page-footer__pages footer-pages">
+    <div class="page-footer__list-container">
       <h3 class="footer-pages__title">Pages</h3>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-pages__link">Home</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-pages__link">Product</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-pages__link">Pricing</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-pages__link">About</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-pages__link">Contact</a>
-      </li>
-    </ul>
-    <ul class="page-footer__pages footer-persons">
+      <ul class="page-footer__list footer-pages">
+        <li class="footer-pages__item">
+          <a href="#" class="footer-pages__link">Home</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-pages__link">Product</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-pages__link">Pricing</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-pages__link">About</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-pages__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="page-footer__list-container">
       <h3 class="footer-persons__title">Tomothy</h3>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-persons__link">Eleanor Edwards</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-persons__link">Ted Robertson</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-persons__link">Annette Russell</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-persons__link">Jennie Mckinney</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-persons__link">Gloria Richards</a>
-      </li>
-    </ul>
-    <ul class="page-footer__pages footer-personages">
+      <ul class="page-footer__list footer-persons">
+        <li class="footer-pages__item">
+          <a href="#" class="footer-persons__link">Eleanor Edwards</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-persons__link">Ted Robertson</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-persons__link">Annette Russell</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-persons__link">Jennie Mckinney</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-persons__link">Gloria Richards</a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__list-container">
       <h3 class="footer-personages__title">Jane Black</h3>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-personages__link">Philip Jones</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-personages__link">Product</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-personages__link">Colleen Russell</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-personages__link">Marvin Hawkins</a>
-      </li>
-      <li class="footer-pages__item">
-        <a href="#" class="footer-personages__link">Bruce Simmmons</a>
-      </li>
-    </ul>
+      <ul class="page-footer__list footer-personages">
+        <li class="footer-pages__item">
+          <a href="#" class="footer-personages__link">Philip Jones</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-personages__link">Product</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-personages__link">Colleen Russell</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-personages__link">Marvin Hawkins</a>
+        </li>
+        <li class="footer-pages__item">
+          <a href="#" class="footer-personages__link">Bruce Simmmons</a>
+        </li>
+      </ul>
+    </div>
     <div class="page-footer__about">
       <ul class="page-footer__socials">
         <li class="page-footer__socials-items">
@@ -383,7 +390,7 @@
         <h4 class="page-footer__subscribes-title">Subscribe to our Newsletter</h4>
         <p class="page-footer__subscribes-text">Available exclusivery on Figmaland</p>
         <form class="page-footer__subscribes-form" action="">
-          <input type="email" class="page-footer__subscribes-email" placeholder="Your Email" required>
+          <input type="email" class="page-footer__subscribes-email" aria-label="enter your email" placeholder="Your Email" required>
           <button class="page-footer__subscribes-button">Subscribe</button>
         </form>
       </div>
