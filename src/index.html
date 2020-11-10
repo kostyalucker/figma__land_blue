@@ -36,9 +36,12 @@
           </li>
         </ul>
       </nav>
-      <form class="header-menu__subscribe"  action="" method="GET">
-        <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email" required>
-        <button class="header-menu__button">Subscribe</button>
+      <form  action="">
+        <fieldset class="header-menu__subscribe">
+          <legend class="visually-hidden">Subscribe</legend>
+          <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email" required>
+          <button class="header-menu__button">Subscribe</button>
+        </fieldset>
       </form>
     </div>
     <div class="page-header__intro">
@@ -96,9 +99,12 @@
       <div class="subscribe__desc">
         <p class="subscribe__text">Subscribe to our Newsletter</p>
         <p class="subscribe__subtext">Available exclusivery on Figmaland</p>
-        <form class="subscribe__form" method="GET">
-          <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email" required>
-          <button class="subscribe__button">Subscribe</button>
+        <form>
+          <fieldset  class="subscribe__form">
+            <legend class="visually-hidden">Subscribe</legend>
+            <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email" required>
+            <button class="subscribe__button">Subscribe</button>
+          </fieldset>
         </form>
       </div>
     </div>
@@ -296,11 +302,14 @@
     </ul>
     <div class="contact__form">
       <h3 class="contact__form-title">Contact Us</h3>
-      <form class="contact__form-container" action="" method="POST">
-        <input type="text" class="contact__form-name" name="name" aria-label="Enter your name" placeholder="Your Name">
-        <input type="email" class="contact__form-email" name="email" aria-label="Enter your email" placeholder="Your Email">
-        <textarea id="subject" class="contact__form-subject" aria-label="Enter your message" placeholder="Your Message" style="height:193px"></textarea>
-        <input class="contact__form-submit" type="submit" value="Send">
+      <form action="">
+        <fieldset  class="contact__form-container">
+          <legend class="visually-hidden">Contact Us</legend>
+          <input type="text" class="contact__form-name" name="name" aria-label="Enter your name" placeholder="Your Name">
+          <input type="email" class="contact__form-email" name="email" aria-label="Enter your email" placeholder="Your Email">
+          <textarea id="subject" class="contact__form-subject" aria-label="Enter your message" placeholder="Your Message" style="height:193px"></textarea>
+          <input class="contact__form-submit" type="submit" value="Send">
+        </fieldset>
       </form>
     </div>
   </section>
@@ -389,9 +398,12 @@
       <div class="page-footer__subscribes">
         <h4 class="page-footer__subscribes-title">Subscribe to our Newsletter</h4>
         <p class="page-footer__subscribes-text">Available exclusivery on Figmaland</p>
-        <form class="page-footer__subscribes-form" action="">
-          <input type="email" class="page-footer__subscribes-email" aria-label="enter your email" placeholder="Your Email" required>
-          <button class="page-footer__subscribes-button">Subscribe</button>
+        <form action="">
+          <fieldset class="page-footer__subscribes-form">
+            <legend class="visually-hidden">Subscribe</legend>
+            <input type="email" class="page-footer__subscribes-email" aria-label="enter your email" placeholder="Your Email" required>
+            <button class="page-footer__subscribes-button">Subscribe</button>
+          </fieldset>
         </form>
       </div>
     </div>
