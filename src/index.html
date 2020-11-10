@@ -40,10 +40,18 @@
       <form class="header-menu__form" action="">
         <fieldset class="header-menu__subscribe">
           <legend class="visually-hidden">Subscribe</legend>
-          <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email" required>
+          <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email"
+                 required>
           <button class="header-menu__subscribe-button button">Subscribe</button>
         </fieldset>
       </form>
+
+      <div class="header-menu__mobile-container" tabindex="0">
+        <div class="header-menu__mobile-menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
     </div>
     <div class="page-header__intro">
       <p class="page-header__subtitle">At your fingertips</p>
@@ -95,71 +103,68 @@
     </div>
   </section>
   <section class="subscribe">
-    <div class="wrap">
-      <img src="img/subscribe-desktop.svg" alt="new letter" class="subscribe__img">
-      <div class="subscribe__content">
-        <div class="subscribe__head">
-          <p class="subscribe__subtitle">At your fingertips</p>
-          <h2 class="subscribe__title">Lightning fast prototyping</h2>
-        </div>
-        <div class="subscribe__desc">
-          <p class="subscribe__text">Subscribe to our Newsletter</p>
-          <p class="subscribe__subtext">Available exclusivery on Figmaland</p>
-          <form>
-            <fieldset  class="subscribe__form">
-              <legend class="visually-hidden">Subscribe</legend>
-              <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email" required>
-              <button class="subscribe__button">Subscribe</button>
-            </fieldset>
-          </form>
-        </div>
+    <img src="img/subscribe-desktop.svg" alt="new letter" class="subscribe__img">
+    <div class="subscribe__content">
+      <div class="subscribe__head">
+        <p class="subscribe__subtitle">At your fingertips</p>
+        <h2 class="subscribe__title">Lightning fast prototyping</h2>
+      </div>
+      <div class="subscribe__desc">
+        <p class="subscribe__text">Subscribe to our Newsletter</p>
+        <p class="subscribe__subtext">Available exclusivery on Figmaland</p>
+        <form>
+          <fieldset class="subscribe__form">
+            <legend class="visually-hidden">Subscribe</legend>
+            <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email"
+                   required>
+            <button class="subscribe__button">Subscribe</button>
+          </fieldset>
+        </form>
       </div>
     </div>
   </section>
   <section class="partners">
-    <div class="wrap">
-      <h2 class="partners__title">Partners</h2>
-      <p class="partners__text">Most calendars are designed for teams.
-        Slate is designed for freelancers</p>
-      <ul class="partners__list">
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-1.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-2.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-3.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-4.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-5.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-1.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-        <li class="partners__item">
-          <a href="#" class="partners__link">
-            <img src="img/partner-7.svg" alt="logo" class="partners__ico">
-          </a>
-        </li>
-      </ul>
-      <a href="#" class="partners__button">Try For Free</a>
-    </div>
+    <h2 class="partners__title">Partners</h2>
+    <p class="partners__text">Most calendars are designed for teams.
+      Slate is designed for freelancers</p>
+    <ul class="partners__list">
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-1.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-2.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-3.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-4.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-5.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-1.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partner-7.svg" alt="logo" class="partners__ico">
+        </a>
+      </li>
+    </ul>
+    <a href="#" class="partners__button">Try For Free</a>
   </section>
   <section class="testimonials">
     <div class="wrap">
@@ -177,7 +182,8 @@
               <li class="rating"></li>
               <li class="rating"></li>
               <li class="rating"></li>
-              <li class="rating"></li></ul>
+              <li class="rating"></li>
+            </ul>
             <p class="testimonials__name">Regina Miles</p>
             <p class="testimonials__position">Designer</p>
           </div>
@@ -194,7 +200,8 @@
               <li class="rating"></li>
               <li class="rating"></li>
               <li class="rating"></li>
-              <li class="rating"></li></ul>
+              <li class="rating"></li>
+            </ul>
             <p class="testimonials__name">Regina Miles</p>
             <p class="testimonials__position">Designer</p>
           </div>
@@ -211,7 +218,8 @@
               <li class="rating"></li>
               <li class="rating"></li>
               <li class="rating"></li>
-              <li class="rating"></li></ul>
+              <li class="rating"></li>
+            </ul>
             <p class="testimonials__name">Regina Miles</p>
             <p class="testimonials__position">Designer</p>
           </div>
@@ -228,7 +236,8 @@
               <li class="rating"></li>
               <li class="rating"></li>
               <li class="rating"></li>
-              <li class="rating"></li></ul>
+              <li class="rating"></li>
+            </ul>
             <p class="testimonials__name">Regina Miles</p>
             <p class="testimonials__position">Designer</p>
           </div>
@@ -245,7 +254,8 @@
               <li class="rating"></li>
               <li class="rating"></li>
               <li class="rating"></li>
-              <li class="rating"></li></ul>
+              <li class="rating"></li>
+            </ul>
             <p class="testimonials__name">Regina Miles</p>
             <p class="testimonials__position">Designer</p>
           </div>
@@ -262,7 +272,8 @@
               <li class="rating"></li>
               <li class="rating"></li>
               <li class="rating"></li>
-              <li class="rating"></li></ul>
+              <li class="rating"></li>
+            </ul>
             <p class="testimonials__name">Regina Miles</p>
             <p class="testimonials__position">Designer</p>
           </div>
@@ -308,18 +319,22 @@
       <img class="contact__img" src="img/map-desktop.jpg" alt="map">
       <ul class="contact__communication-list">
         <li class="contact__communication-item">6386 Spring St undefined Anchorage,
-          Georgia 12473 United States</li>
+          Georgia 12473 United States
+        </li>
         <li class="contact__communication-item">(843) 555-0130</li>
         <li class="contact__communication-item">willie.jennings@example.com</li>
       </ul>
       <div class="contact__form">
         <h3 class="contact__form-title">Contact Us</h3>
         <form action="">
-          <fieldset  class="contact__form-container">
+          <fieldset class="contact__form-container">
             <legend class="visually-hidden">Contact Us</legend>
-            <input type="text" class="contact__form-name" name="name" aria-label="Enter your name" placeholder="Your Name">
-            <input type="email" class="contact__form-email" name="email" aria-label="Enter your email" placeholder="Your Email">
-            <textarea id="subject" class="contact__form-subject" aria-label="Enter your message" placeholder="Your Message" style="height:193px"></textarea>
+            <input type="text" class="contact__form-name" name="name" aria-label="Enter your name"
+                   placeholder="Your Name">
+            <input type="email" class="contact__form-email" name="email" aria-label="Enter your email"
+                   placeholder="Your Email">
+            <textarea id="subject" class="contact__form-subject" aria-label="Enter your message"
+                      placeholder="Your Message" style="height:193px"></textarea>
             <input class="contact__form-submit" type="submit" value="Send">
           </fieldset>
         </form>
@@ -414,7 +429,8 @@
         <form action="">
           <fieldset class="page-footer__subscribes-form">
             <legend class="visually-hidden">Subscribe</legend>
-            <input type="email" class="page-footer__subscribes-email" aria-label="enter your email" placeholder="Your Email" required>
+            <input type="email" class="page-footer__subscribes-email" aria-label="enter your email"
+                   placeholder="Your Email" required>
             <button class="page-footer__subscribes-button">Subscribe</button>
           </fieldset>
         </form>
@@ -422,5 +438,6 @@
     </div>
   </div>
 </footer>
+<script src="js/header-menu.js"></script>
 </body>
 </html>

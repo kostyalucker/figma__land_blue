@@ -4,6 +4,7 @@
   border-radius: 39px;
   border: none;
   cursor: pointer;
+  white-space: nowrap;
 
   @include font(16, 16, 500);
   letter-spacing: 0.2px;

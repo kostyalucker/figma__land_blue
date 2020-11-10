@@ -47,6 +47,7 @@
   background: $light-background-color;
   border-radius: 39px;
   border: none;
+  white-space: nowrap;
 
   @include font(22, 33, 500);
   color: #2091F9;
