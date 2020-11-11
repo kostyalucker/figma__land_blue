@@ -12,78 +12,80 @@
 
 <body>
 <header class="page-header">
-  <div class="page-header__menu header-menu">
-    <a class="header-menu__logo">
-      <img src="img/logo-desktop.png" alt="figma land logotype">
-    </a>
-    <nav class="header-menu__nav">
-      <ul class="header-menu__list">
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Home</a>
-        </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Product</a>
-        </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Pricing</a>
-        </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">About</a>
-        </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="page-header__login-button button">Login</button>
-    <form class="header-menu__form" action="">
-      <fieldset class="header-menu__subscribe">
-        <legend class="visually-hidden">Subscribe</legend>
-        <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email"
-               required>
-        <button class="header-menu__subscribe-button button">Subscribe</button>
-      </fieldset>
-    </form>
-
-    <div class="header-menu__mobile-container" tabindex="0">
-      <div class="header-menu__mobile-menu">
-        <span></span><span></span><span></span>
+  <div class="wrap wrap--header">
+    <div class="page-header__menu header-menu">
+      <a class="header-menu__logo">
+        <img src="img/logo-desktop.png" alt="figma land logotype">
+      </a>
+      <nav class="header-menu__nav">
+        <ul class="header-menu__list">
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Home</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Product</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Pricing</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">About</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="page-header__login-button button">Login</button>
+      <form class="header-menu__form" action="">
+        <fieldset class="header-menu__subscribe">
+          <legend class="visually-hidden">Subscribe</legend>
+          <input type="email" class="header-menu__email" placeholder="Your Email" aria-label="Enter your email"
+                 required>
+          <button class="header-menu__subscribe-button button">Subscribe</button>
+        </fieldset>
+      </form>
+      <div class="header-menu__mobile-container" tabindex="0">
+        <div class="header-menu__mobile-menu">
+          <span></span><span></span><span></span>
+        </div>
       </div>
     </div>
-
-  </div>
-  <div class="page-header__intro">
-    <p class="page-header__subtitle">At your fingertips</p>
-    <h1 class="page-header__title">Lightning fast prototyping</h1>
-    <p class="page-header__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
-    <a href="#" class="page-header__button">Try For Free</a>
-    <img src="img/computer-desktop.png" alt="Macbook" class="page-header__img">
+    <div class="page-header__intro">
+      <p class="page-header__subtitle">At your fingertips</p>
+      <h1 class="page-header__title">Lightning fast prototyping</h1>
+      <p class="page-header__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+      <a href="#" class="page-header__button">Try For Free</a>
+      <img src="img/computer-desktop.png" alt="Macbook" class="page-header__img">
+    </div>
   </div>
 </header>
 <main>
   <section class="features">
-    <p class="features__subtitle">At your fingertips</p>
-    <h2 class="features__title">Features</h2>
-    <p class="features__text">Most calendars are designed for teams.
-      Slate is designed for freelancers</p>
-    <div class="features__block">
-      <div class="features__img-container">
-        <img src="img/screen-features-desktop.png" alt="screen" class="features__img">
+    <div class="wrap wrap--features">
+      <p class="features__subtitle">At your fingertips</p>
+      <h2 class="features__title">Features</h2>
+      <p class="features__text">Most calendars are designed for teams.
+        Slate is designed for freelancers</p>
+      <div class="features__block">
+        <div class="features__img-container">
+          <img src="img/screen-features-desktop.png" alt="screen" class="features__img">
+        </div>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item-title">At your fingertips</h3>
+            <p class="features__item-text">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal. </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">At your fingertips</h3>
+            <p class="features__item-text">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal. </p>
+          </li>
+        </ul>
       </div>
-      <ul class="features__list">
-        <li class="features__item">
-          <h3 class="features__item-title">At your fingertips</h3>
-          <p class="features__item-text">Slate helps you see how many
-            more days you need to work to
-            reach your financial goal. </p>
-        </li>
-        <li class="features__item">
-          <h3 class="features__item-title">At your fingertips</h3>
-          <p class="features__item-text">Slate helps you see how many
-            more days you need to work to
-            reach your financial goal. </p>
-        </li>
-      </ul>
     </div>
   </section>
   <section class="plans">
@@ -99,71 +101,75 @@
     </div>
   </section>
   <section class="subscribe">
-    <img src="img/subscribe-desktop.svg" alt="new letter" class="subscribe__img">
-    <div class="subscribe__content">
-      <div class="subscribe__head">
-        <p class="subscribe__subtitle">At your fingertips</p>
-        <h2 class="subscribe__title">Lightning fast prototyping</h2>
-      </div>
-      <div class="subscribe__desc">
-        <p class="subscribe__text">Subscribe to our Newsletter</p>
-        <p class="subscribe__subtext">Available exclusivery on Figmaland</p>
-        <form>
-          <fieldset class="subscribe__form">
-            <legend class="visually-hidden">Subscribe</legend>
-            <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email"
-                   required>
-            <button class="subscribe__button">Subscribe</button>
-          </fieldset>
-        </form>
+    <div class="wrap wrap--subscribe">
+      <img src="img/subscribe-desktop.svg" alt="new letter" class="subscribe__img">
+      <div class="subscribe__content">
+        <div class="subscribe__head">
+          <p class="subscribe__subtitle">At your fingertips</p>
+          <h2 class="subscribe__title">Lightning fast prototyping</h2>
+        </div>
+        <div class="subscribe__desc">
+          <p class="subscribe__text">Subscribe to our Newsletter</p>
+          <p class="subscribe__subtext">Available exclusivery on Figmaland</p>
+          <form>
+            <fieldset class="subscribe__form">
+              <legend class="visually-hidden">Subscribe</legend>
+              <input type="email" class="subscribe__email" placeholder="Your Email" aria-label="Enter your email"
+                     required>
+              <button class="subscribe__button">Subscribe</button>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
   </section>
   <section class="partners">
-    <h2 class="partners__title">Partners</h2>
-    <p class="partners__text">Most calendars are designed for teams.
-      Slate is designed for freelancers</p>
-    <ul class="partners__list">
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-1.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-2.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-3.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-4.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-5.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-1.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-      <li class="partners__item">
-        <a href="#" class="partners__link">
-          <img src="img/partner-7.svg" alt="logo" class="partners__ico">
-        </a>
-      </li>
-    </ul>
-    <a href="#" class="partners__button">Try For Free</a>
+    <div class="wrap wrap--partners">
+      <h2 class="partners__title">Partners</h2>
+      <p class="partners__text">Most calendars are designed for teams.
+        Slate is designed for freelancers</p>
+      <ul class="partners__list">
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-1.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-2.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-3.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-4.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-5.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-1.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <img src="img/partner-7.svg" alt="logo" class="partners__ico">
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="partners__button">Try For Free</a>
+    </div>
   </section>
   <section class="testimonials">
-    <div class="wrap">
+    <div class="wrap wrap--testimonials">
       <h2 class="testimonials__title">Testimonials</h2>
       <ul class="testimonials__list">
         <li class="testimonials__item">
@@ -339,7 +345,7 @@
   </section>
 </main>
 <footer class="page-footer">
-  <div class="wrap--page-footer">
+  <div class="wrap wrap--page-footer">
     <div class="page-footer__list-container">
       <h3 class="footer-pages__title">Pages</h3>
       <ul class="page-footer__list footer-pages">

@@ -1,18 +1,38 @@
 .wrap {
-  max-width: 1153px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  &--pricing,
-  &--page-footer{
-    max-width: 866px;
-    display: flex;
+  &--header {
+    max-width: 1133px;
+
+  }
+
+
+
+  &--subscribe {
+    max-width: 1271px;
+    flex-direction: row;
+  }
+
+  &--testimonials {
+    max-width: 1185px;
+  }
+
+  &--pricing{
+    max-width: 876px;
     justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: start;
   }
 
   &--page-footer {
     max-width: 1036px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
