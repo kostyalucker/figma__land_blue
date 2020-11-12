@@ -1,3 +1,3 @@
 # figma__land_blue
 
-**Open Templates to view preview**
+**Open Templates to see preview**
