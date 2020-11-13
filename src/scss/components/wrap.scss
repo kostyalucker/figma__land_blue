@@ -4,13 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   &--header {
     max-width: 1133px;
-
   }
-
-
 
   &--subscribe {
     max-width: 1271px;
@@ -21,7 +19,7 @@
     max-width: 1185px;
   }
 
-  &--pricing{
+  &--pricing {
     max-width: 876px;
     justify-content: space-between;
     flex-direction: row;
@@ -36,14 +34,18 @@
   }
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px) {
   .wrap {
     padding: 0 40px;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .wrap {
     padding: 0 20px;
+  }
+
+  .wrap--features {
+    padding: 0 16px;
   }
 }
