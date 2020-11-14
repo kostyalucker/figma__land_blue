@@ -5,6 +5,7 @@
   align-items: center;
   background: $background-gradient;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .plans__subtitle {
@@ -39,7 +40,6 @@
 }
 
 .plans__links {
-  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;

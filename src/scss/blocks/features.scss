@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 96px;
+  padding-bottom: 149px;
 }
 
 .features__subtitle {
@@ -48,7 +49,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom: 149px;
 }
 
 .features__item {
@@ -87,4 +87,19 @@
   @include font(18, 27, 400);
   color: $second-text-color;
   letter-spacing: 0.2px;
+}
+
+@media (max-width: 500px) {
+  .features__img-container {
+    margin-right: 0;
+    margin-bottom: 81px;
+  }
+
+  .features__text {
+    margin-bottom: 66px;
+  }
+
+  .features__item {
+    margin-bottom: 95px;
+  }
 }

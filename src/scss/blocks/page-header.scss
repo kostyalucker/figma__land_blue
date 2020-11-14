@@ -1,7 +1,7 @@
 .page-header {
   background: url(../../img/bg-header-desktop.png) no-repeat;
   background-size: cover;
-
+  padding-bottom: 134px;
 }
 
 .page-header__intro {
@@ -51,8 +51,4 @@
 
   @include font(22, 33, 500);
   color: #2091F9;
-}
-
-.page-header__img {
-  margin-bottom: 134px;
 }
